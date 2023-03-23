@@ -66,7 +66,6 @@ function TradingCardContainer(){
   const cards = [];
   
   for (const card of tradingCardData) {
-    console.log(`card: ${card}, brackets: ${card[name]}, period: ${card.name}`)
     cards.push(
       <TradingCard 
         name = {card.name} 
